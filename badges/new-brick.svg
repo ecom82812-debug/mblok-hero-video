@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 72" role="img" aria-label="NEW">
+<style>
+.b{transform-box:fill-box;transform-origin:50% 100%;animation:h 3.6s cubic-bezier(.3,0,.3,1) infinite}
+.s{animation:g 3.6s ease-in-out infinite}
+@keyframes h{0%,62%,100%{transform:none}70%{transform:translateY(-12px) scale(.98,1.03)}78%{transform:none}82%{transform:scale(1.05,.93)}88%{transform:translateY(-3px)}94%{transform:none}}
+@keyframes g{0%,74%,100%{opacity:0;transform:translateX(-70px)}80%{opacity:.5}92%{opacity:0;transform:translateX(90px)}}
+@media (prefers-reduced-motion:reduce){.b,.s{animation:none}}
+</style>
+<defs><clipPath id="c"><rect x="4" y="22" width="88" height="46" rx="6"/></clipPath></defs>
+<g class="b">
+<rect x="14" y="10" width="20" height="16" rx="4" fill="#5eaee8"/><rect x="38" y="10" width="20" height="16" rx="4" fill="#5eaee8"/><rect x="62" y="10" width="20" height="16" rx="4" fill="#5eaee8"/>
+<rect x="4" y="22" width="88" height="46" rx="6" fill="#469bde"/>
+<rect x="4" y="60" width="88" height="8" rx="4" fill="#000" opacity=".18"/>
+<g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M16 54V33l14 21V33"/><path d="M54 33H40v21h14M40 43.500h11"/><path d="M60 33l5 21 6-17 6 17 5-21"/>
+</g>
+<g clip-path="url(#c)"><rect class="s" x="30" y="10" width="16" height="70" fill="#fff" transform="skewX(-18)"/></g>
+</g>
+</svg>
